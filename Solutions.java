@@ -3,7 +3,7 @@ public class Solutions {
         int[][] arr= new int[input.length][input[0].length];
         for(int r = 0; r<arr.length; r++) {
             for (int c = 0; c < arr.length; c++) {
-                arr[r][c] = factor * arr[r][c];
+                arr[r][c] = factor * input[r][c];
             }
         }
         return arr;
